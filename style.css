@@ -1,35 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Poppins:wght@300&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     font-family: Helvetica, Tahoma, 'Courier New';
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
-    width:100%;
+    width: 100%;
     align-items: center;
     /* justify-content: space-between; */
     background-color: #2c3e50;
     color: white;
 }
-.cont3{
+
+.cont3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 30vh;
+    height: auto;
     background-color: #2c3e50;
     margin: 12px 0;
     color: aliceblue;
     flex-wrap: wrap;
 }
-.yes{
+
+.yes {
     display: flex;
     width: 30%;
     align-items: center;
     justify-content: center;
 }
-.first1{
+
+.first1 {
     border: 2px solid white;
     border-radius: 15px;
     margin: 25px 0;
@@ -37,13 +42,15 @@
     /* width: 150px; */
     text-align: center;
 }
-.Service h3{
+
+.Service h3 {
     text-align: center;
     font-size: 1.2rem;
-    
+
 
 }
-strong{
+
+.strong {
     background-color: #2c3e50;
     color: aliceblue;
     border: 2px solid black;
@@ -52,9 +59,10 @@ strong{
     margin: 0 0 5px 0;
     border-radius: 11px;
 }
-.about{
+
+.about {
     text-align: center;
-    border:2px solid black;
+    border: 2px solid black;
     font-size: 1.5rem;
     margin: 12px auto;
     padding: 3px;
@@ -64,61 +72,75 @@ strong{
     border-radius: 40px;
     background-color: #2c3e50;
 }
-.heading{
+
+.heading {
     margin: 20px 0 10px;
-    line-height:2.5rem ;
+    line-height: 2.5rem;
     font-size: 3rem;
     background-color: rgb(12, 160, 350, .5);
 }
-.tagline{
+
+.tagline {
     /* margin: 5px; */
     padding: 5px;
     background-color: rgb(12, 160, 350, .5);
 }
-button{
+
+button {
     width: 90px;
     margin: 12px;
     height: 35px;
     border-radius: 5px;
     background: rgb(12, 160, 350);
 }
-.mypic{
+
+.mypic {
     width: 50%;
     display: flex;
     justify-content: center;
 }
-.About{
+
+.About {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.written{
+
+.written {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
 }
-.written h3{
+
+.written h3 {
     font-size: 2rem;
 }
-.section{
+
+.section {
     background-image: url("img/background.jpeg");
     margin: 0 40px;
-    padding: 0 40px;
 }
-.navbar li{
+
+.navbar li {
     padding: 1em;
 }
-.navbar-logo{
-    flex:1;
+
+.navbar-logo {
+    flex: 1;
     font-size: 1.5rem;
     font-weight: bold;
 }
-h1{
+
+h1 {
     font-size: 2rem;
-   
+
 }
-.container{
+header{
+    position: sticky;
+    top: 0;
+}
+.container {
     display: flex;
     height: 105vh;
     justify-content: center;
@@ -126,29 +148,35 @@ h1{
     align-items: center;
     flex-direction: column;
 }
-a{
+
+a {
     text-decoration: none;
     color: aliceblue;
 }
-.navbar-toggle{
+
+.navbar-toggle {
     display: none;
 }
-.projects{
+
+.projects {
     text-align: center;
 }
-.img{
-    width: 450px;
+
+.img {
+    width: 420px;
     height: 300px;
     margin: 10px 40px;
 }
-.cont1{
+
+.cont1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+
 }
-.projects h2{
+
+.projects h2 {
     font-size: 1.5rem;
     margin: 12px auto;
     width: 160px;
@@ -158,89 +186,175 @@ a{
     border-radius: 40px;
     background-color: #2c3e50;
 }
-.navbar-links:hover{
+
+.navbar-links:hover {
     background-color: cyan;
 }
-.navbar-links a:hover{
+
+.navbar-links a:hover {
     color: black;
 }
-.written p{
+
+.written p {
     width: 60%;
     margin: 10px;
 }
-.cont2{
+
+.cont2 {
     display: flex;
     justify-content: space-around;
     color: aliceblue;
     align-items: center;
     height: 50px;
 }
-.Aman{
+
+.Aman {
     background-color: black;
-    height: 30px;
+    height: auto;
     text-align: center;
     color: aliceblue;
     font-size: 20px;
     padding-top: 5px;
 }
-.Aman a{
+
+.Aman a {
     color: aqua;
 }
-.number{
+
+.number {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 50%;
 }
-footer{
+
+footer {
     background-color: #2c3e50;
 }
-@media (max-width:600px){
-    .navbar ul{
+
+@media (max-width:460px) {
+    .heading h1 {
+        font-size: 1.2rem;
+    }
+
+    .cont1 {
+        width: 300px;
+        justify-content: end;
+    }
+
+    .img {
+        width: 250px;
+        margin: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .navbar ul {
         flex-wrap: wrap;
     }
-    .navbar-toggle{
+
+    .mypic {
+        width: 100vw;
+    }
+
+    .heading {
+        font-size: 1.2rem;
+        line-height: normal;
+        background: none;
+    }
+
+    .container {
+        display: block;
+        text-align: center;
+        background-color: #2c3e50;
+        height: auto;
+    }
+
+    .heading h1 {
+        /* font-size: 1.5rem; */
+        /* width: 100vw; */
+        background: none;
+    }
+
+    .section {
+        background-image: none;
+        margin: 0;
+        height: auto;
+    }
+
+    .About {
+        width: 250px;
+    }
+
+    .heading {
+        margin: 0;
+        padding: 12px 0;
+    }
+    .mypic img{
+        width: 250px;
+    }
+    .tagline {
+        padding: 5px 0;
+        background: none;
+    }
+
+    .navbar-toggle {
         display: block;
     }
-    .navbar-links{
+
+    .navbar-links {
         display: none;
         text-align: center;
         width: 100%;
     }
-    .act{
+
+    .act {
         display: block;
     }
-    .About{
 
+    .About {
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 25px 0;
     }
-    .written p{
-        width: 100%;
+
+    .written p {
+        width: 90%;
 
     }
-    .number{
+
+    .written {
+        width: 100%;
+        margin: 2em;
+    }
+
+    .number {
         flex-direction: column;
         align-items: flex-start;
     }
-    .cont3{
+
+    .cont3 {
         flex-wrap: wrap;
         height: fit-content;
+        height: auto;
         /* flex-direction: column; */
     }
-    .first{
+
+    .first {
         flex-wrap: wrap;
     }
-    .cont2{
-        height: 100px;
+
+    .cont2 {
+        height: auto;
     }
+
 }
-@media (max-height:700px){
-    .section{
-        height: 120vh;
+
+@media (max-height:700px) {
+    .section {
+        height: auto;
     }
 }
