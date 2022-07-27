@@ -239,8 +239,8 @@ footer {
     }
 
     .cont1 {
-        width: 300px;
-        justify-content: end;
+        max-width: 100%;
+        justify-content: center;
     }
 
     .img {
