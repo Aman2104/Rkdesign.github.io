@@ -215,7 +215,7 @@ a {
     justify-content: space-around;
     color: aliceblue;
     align-items: center;
-    height: 50px;
+    height: auto;
 }
 
 .Aman {
@@ -234,11 +234,18 @@ a {
 .number {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     width: 50%;
 }
-
+.fa::before{
+    margin-right: 30px;
+}
+.contact{
+    width: 70%;
+    align-self: center;
+}
 footer {
     background-color: #2c3e50;
 }
