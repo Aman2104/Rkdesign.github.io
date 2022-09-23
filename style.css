@@ -239,8 +239,10 @@ a {
 }
 
 .cont2 {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    margin: 0 20px ;
+    padding: 20px 0;
     color: aliceblue;
     align-items: center;
     height: auto;
@@ -262,13 +264,14 @@ a {
 .number {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    width: 50%;
+    /* width: 50%; */
 }
 .fa::before{
-    margin-right: 30px;
+    margin-right: 10px;
 }
 .contact{
     width: 70%;
@@ -410,6 +413,7 @@ footer {
     }
 
     .cont2 {
+        grid-template-columns: 1fr 2fr;
         height: auto;
     }
 
