@@ -1,0 +1,32 @@
+.act{
+    animation: animate 2s 1;
+    position: relative;
+}
+
+@keyframes animate{
+    0%{
+        left: -100vw;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+.reverse{
+    display: none;
+    position:relative;
+    left: 100vw;
+    animation: reverse 2s 1;
+}
+@keyframes reverse{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 50vw;
+    }
+    100%{
+        left: 100vw;
+    }
+}
+
