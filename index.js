@@ -48,9 +48,7 @@ Planning.addEventListener("click", () => {
             <img src="img/Planning/Planning 3.jpg" alt="" class="DisImg">
             <img src="img/Planning/Planning 5.jpg" alt="" class="DisImg">
             <img src="img/Planning/Planning 6.jpg" alt="" class="DisImg">
-            <!-- <img src="img/Planning/Planning 7.jpg" alt="" class="DisImg"> -->
             <img src="img/Planning/Planning 8.jpg" alt="" class="DisImg">
-            <!-- <img src="img/Planning/Planning 1.jpg" alt="" class="DisImg"> -->
             <img src="img/Planning/Planning 4.jpg" alt="" class="DisImg">
             <img src="img/Planning/Planning 9.jpg" alt="" class="DisImg">
             <img src="img/Planning/Planning 10.jpg" alt="" class="DisImg">
@@ -109,6 +107,7 @@ Electrical.addEventListener("click", () => {
 });
 Interior.addEventListener("click", () => {
   setTimeout( function() {
+    
     document.getElementById("displayImage").scrollIntoView({behavior: 'smooth'});
   document.getElementById("displayImage").innerHTML = `<div class="about">
             <h2 id="Content">Interior Design</h2>
