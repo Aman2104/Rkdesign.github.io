@@ -92,12 +92,8 @@
     background-color: rgb(156 159 160 / 20%);
 }
 #LogoName{
-<<<<<<< HEAD
     font-size:46px;
     width: 100vw;
-=======
-    font-size: 36px;
->>>>>>> f83077f4ac74e5c3dcbbebaffd02748d4be7e143
     text-align: center;
 }
 
@@ -124,12 +120,7 @@
 }
 /* .cont1 img:hover{
     transform: scale(1.2);
-<<<<<<< HEAD
 } */
-=======
-    z-index :3;
-}
->>>>>>> f83077f4ac74e5c3dcbbebaffd02748d4be7e143
 .written {
     display: flex;
     flex-direction: column;
@@ -169,11 +160,7 @@ h1 {
 header{
     position: sticky;
     top: 0;
-<<<<<<< HEAD
     z-index: 2;
-=======
-    z-index :2;
->>>>>>> f83077f4ac74e5c3dcbbebaffd02748d4be7e143
 }
 .container {
     display: flex;
@@ -205,15 +192,10 @@ a {
     
     cursor: pointer;
     overflow: hidden;
-<<<<<<< HEAD
     position: relative;
     height: 100%;
     width: 100%;
    
-=======
-    border-radius: 10px;
-    border: 2px solid black;
->>>>>>> f83077f4ac74e5c3dcbbebaffd02748d4be7e143
     transition: 500ms;
 }
 
@@ -286,12 +268,7 @@ a {
 }
 .contact{
     width: 70%;
-<<<<<<< HEAD
     text-align: end;
-=======
-    align-self: center;
-    text-align:center;
->>>>>>> f83077f4ac74e5c3dcbbebaffd02748d4be7e143
 }
 footer {
     background-color: #2c3e50;
@@ -516,13 +493,5 @@ footer {
 @media (max-height:700px) {
     .section {
         height: auto;
-    }
-}
-@media (max-height:410px) {
-    .cont2{
-        margin: 0 10px;
-    }
-    .contact{
-        text-align:start;
     }
 }
