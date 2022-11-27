@@ -7,63 +7,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
         content="Rk Design is an Architectural website where you can connect and get your favourite Design Online." />
+    <link rel="stylesheet" href="animation.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="newstyle.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/RK Designs.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/RK Designs.png" />
     <link rel="manifest" href="img/site.webmanifest" />
-    <link rel="stylesheet" href="animation.css" />
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Rk Designs</title>
+
+
+    <style>
+        .box::-webkit-scrollbar {
+            width: 0px;
+        }
+    </style>
 </head>
 
 <body>
     <header id="Header">
         <nav class="navbar">
             <ul>
-                <li class="navbar-logo"><a href="">Rk Designs</a></li>
+                <li class="navbar-logo"><a href="#">Rk Designs</a></li>
                 <li id="menu" class="navbar-toggle">
                     <i class="fa fa-bars" style="font-size: 36px"></i>
                 </li>
                 <li class="navbar-links"><a href="#Home">Home</a></li>
                 <li class="navbar-links"><a href="#section2">About</a></li>
-                <li class="navbar-links"><a href="#section3">Contact</a></li>
+                <li class="navbar-links"><a>Contact</a></li>
                 <li class="navbar-links"><a href="#section1">Services</a></li>
             </ul>
         </nav>
         <hr style="opacity: 0.5" />
     </header>
     <section class="section" id="Home">
-        <img src="img/background.jpeg" class="backgroundImage" alt="Rk designs" />
+        <div class="box">
+            <img src="img/background.jpeg" class="backgroundImage" alt="Rk designs" style="z-index: -1" />
+        </div>
+        <div class="logo">
+            <img src="img/RK Designs.png" alt="">
+        </div>
         <div class="container">
             <div class="heading">
-                <h1 id="LogoName"><strong></strong></h1>
+                <h1><strong id="LogoName"></strong></h1>
             </div>
-            <div class="tagline" id="tagName"></div>
-            <div class="connect"></div>
-            <div class="btns">
-                <span class="ourproject"><a href="#section1"><button class="btn btn-info">OUR WORK</button></a></span>
-                <span class="aboutme"><a href="#section2"><button class="btn btn-info">ABOUT ME</button></a></span>
+            <div class="tagline" id="tagName">
+                If you can dream it, we can build it!
             </div>
         </div>
+        
     </section>
     <section id="section1">
         <div class="projects">
             <h2>Our Work</h2>
         </div>
         <div class="cont1">
-            <a href="img/1.jpeg" target="_blank"><img class="img" src="img/1.jpeg" alt="Rk Designs" /></a>
-            <a href="img/2.jpeg" target="_blank"><img class="img" src="img/2.jpeg" alt="Rk Designs" /></a>
-            <a href="img/3.jpeg" target="_blank"><img class="img" src="img/3.jpeg" alt="Rk Designs" /></a>
-            <a href="img/4.jpeg" target="_blank"><img class="img" src="img/4.jpeg" alt="Rk Designs" /></a>
-            <a href="img/5.jpeg" target="_blank"><img class="img" src="img/5.jpeg" alt="Rk Designs" /></a>
-            <a href="img/6.jpeg" target="_blank"><img class="img" src="img/6.jpeg" alt="Rk Designs" /></a>
-            <a href="img/7.jpeg" target="_blank"><img class="img" src="img/7.jpeg" alt="Rk Designs" /></a>
-            <a href="img/8.jpeg" target="_blank"><img class="img" src="img/8.jpeg" alt="Rk Designs" /></a>
-            <a href="img/9.jpeg" target="_blank"><img class="img" src="img/9.jpeg" alt="Rk Designs" /></a>
+            <div class="Workimage">
+                <img class="img" src="img/Planning/Planning 1.jpg" alt="Rk Designs" />
+                <div class="details">
+                    <p id="Planning" class="vis"><a> Planning</a></p>
+                </div>
+            </div>
+            <div class="Workimage">
+                <img class="img" src="img/Kitchen/kitchen 1.jpg" alt="Rk Designs" />
+                <div class="details">
+                    <p id="Kitchen" class="vis"><a>Modular Kitchen</a></p>
+                </div>
+            </div>
+            <div class="Workimage">
+                <img class="img" src="img/Elevation/Elevation.jpg" alt="Rk Designs" />
+                <div class="details">
+                    <p id="Elevation" class="vis"><a>Front Elevation</a></p>
+                </div>
+            </div>
+            <div class="Workimage">
+                <img class="img" src="img/Electrical/Electrical 1.jpg" alt="Rk Designs" />
+                <div class="details">
+                    <p id="Electrical" class="vis"><a>Electrical Drawing</a></p>
+                </div>
+            </div>
+            <div class="Workimage">
+                <img class="img" src="img/Kitchen/kitchen 4.jpg" alt="Rk Designs" />
+                <div class="details">
+                    <p id="Interior" class="vis"><a>Interior Designing</a></p>
+                </div>
+            </div>
+            <div class="Workimage">
+                <img class="img" src="img/Door Window/Door Window 1.jpg" alt="Rk Designs" />
+                <div class="details">
+                    <p id="Door" class="vis"><a>Door Window Designs</a></p>
+                </div>
+            </div>
+            <div class="Workimage">
+                <img class="img" src="img/LANDSCAPE.jpg" alt="Rk Designs" />
+                <div class="details">
+                    <p id="Landscape" class="vis"><a>Landscape Designs</a></p>
+                </div>
+            </div>
+            
         </div>
     </section>
+
+    <section id="displayImage">
+        
+    </section>
+
+
+
     <section id="section2">
         <div class="about">
             <h2>ABOUT ME</h2>
@@ -83,7 +135,7 @@
             </div>
         </div>
     </section>
-    <section id="services">
+    <!-- <section id="services">
         <div class="Service">
             <h3>
                 <strong class="strong">Services</strong>
@@ -91,50 +143,50 @@
         </div>
         <div class="cont3">
             <div class="yes">
-                <div class="Archpalnning first1"><a href=""> Planning</a></div>
+                <div class="ArchPlanning first1"><a> Planning</a></div>
             </div>
             <div class="yes">
                 <div class="FrontElev first1">
-                    <a href=""> Landscape Designing</a>
+                    <a> Landscape Designing</a>
                 </div>
             </div>
             <div class="yes">
-                <div class="Interior first1"><a href=""> Electrical Drawing</a></div>
+                <div class="Interior first1"><a> Electrical Drawing</a></div>
             </div>
             <div class="yes">
-                <div class="landscape first1"><a href=""> Front Elevation</a></div>
+                <div class="landscape first1"><a> Front Elevation</a></div>
             </div>
             <div class="yes">
-                <div class="Modular first1"><a href=""> Modular Kitchen</a></div>
+                <div class="Modular first1"><a> Modular Kitchen</a></div>
             </div>
             <div class="yes">
-                <div class="Renovation first1"><a href=""> Renovation</a></div>
+                <div class="Renovation first1"><a> Renovation</a></div>
             </div>
             <div class="yes">
-                <div class="Electric first1"><a href=""> Interior Designing</a></div>
+                <div class="Electric first1"><a> Interior Designing</a></div>
             </div>
             <div class="yes">
-                <div class="Plumbing first1"><a href=""> Plumbing Drawing</a></div>
+                <div class="Plumbing first1"><a> Plumbing Drawing</a></div>
             </div>
             <div class="yes">
                 <div class="Plumbing first1">
-                    <a href=""> Door- window Drawing</a>
+                    <a> Door- window Drawing</a>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <footer id="section3">
         <div class="cont2">
             <div class="contact">Contact US:</div>
             <div class="number">
                 <div class="address">
                     <p>
-                        <i class="fa fa-map-marker" ></i> Village Yara,Shahabad Markanda
+                        <i class="fa fa-map-marker"></i> Village Yara,Shahabad Markanda
                     </p>
                 </div>
                 <div class="mobile">
                     <p>
-                        <i class="fa fa-phone" ></i><a href="tel:+91-7015245422">7015245422</a>
+                        <i class="fa fa-phone"></i><a href="tel:+91-7015245422">7015245422</a>
                     </p>
                 </div>
                 <div class="emailId">
@@ -161,6 +213,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script>
+
     <script src="index.js"></script>
 </body>
 
