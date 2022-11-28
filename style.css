@@ -285,6 +285,58 @@ footer {
     margin: 0 5px;
 } */
 
+
+
+
+.act{
+    animation: animate 2s 1;
+    position: relative;
+}
+
+@keyframes animate{
+    0%{
+        left: -100vw;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+.reverse{
+    display: none;
+    position:relative;
+    left: 100vw;
+    animation: reverse 2s 1;
+}
+@keyframes reverse{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 50vw;
+    }
+    100%{
+        left: 100vw;
+    }
+}
+
+
+.DispalyingImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.DisImg{
+    height: 350px;
+    min-width: 200px;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: 2px solid black;
+}
+
 /* New Changes */
 
 
