@@ -489,9 +489,6 @@ footer {
     .act {
         display: block;
     }
-    .reverse {
-        display: block;
-    }
 
     .About {
         flex-wrap: wrap;
