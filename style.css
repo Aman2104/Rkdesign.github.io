@@ -303,9 +303,6 @@ footer {
 }
 
 .reverse{
-    display: none;
-    position:relative;
-    left: 100vw;
     animation: reverse 2s 1;
 }
 @keyframes reverse{
@@ -488,6 +485,9 @@ footer {
 
     .act {
         display: block;
+    }
+    .reverse {
+        display: none;
     }
 
     .About {
