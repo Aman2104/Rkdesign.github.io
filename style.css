@@ -71,7 +71,6 @@
     color: aliceblue;
     border: 2px solid black;
     padding: 6px;
-
     margin: 0 0 5px 0;
     border-radius: 11px;
 }
@@ -102,13 +101,11 @@
 }
 
 .tagline {
-    
     padding: 5px;
     font-weight: bold;
     font-style: italic;
     font-size: 20px;
     background-color: rgb(156 159 160 / 20%);
-    
 }
 
 
